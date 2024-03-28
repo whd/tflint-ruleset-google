@@ -19,6 +19,8 @@ var manualRules = []tflint.Rule{
 	NewGoogleProjectIamAuditConfigInvalidMemberRule(),
 	NewGoogleProjectIamBindingInvalidMemberRule(),
 	NewGoogleProjectIamPolicyInvalidMemberRule(),
+	NewGoogleBigqueryDatasetLocationRule(),
+	NewGoogleBigqueryDatasetNoProjectReadersRule(),
 }
 
 // Rules is a list of all rules
